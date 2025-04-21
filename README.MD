@@ -11,7 +11,7 @@ Podra encontrar un pdf en la seccion de archivos donde podra observar como ejecu
 
 ## Desarrollo
 
-El sistema se compone de dos aplicaciones principales:
+El sistema se compone de dos siguientes aplicaciones principales:
 
 ### 1. Servidor de Chat (Se creo una maquina virtual como servidor)
 - Programado en C utilizando la API de sockets de Berkeley.
