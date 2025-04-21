@@ -5,6 +5,7 @@
 El presente proyecto tiene como objetivo desarrollar un sistema de chat funcional utilizando sockets en lenguaje C bajo una arquitectura cliente-servidor.  
 Se implementa el protocolo TCP/IP para garantizar una comunicación confiable entre múltiples clientes conectados simultáneamente.  
 Este proyecto permite comprender los principios de la programación en red, el manejo de concurrencia usando hilos (pthread) y la gestión eficiente de múltiples conexiones en tiempo real.
+Podra encontrar un pdf en la seccion de archivos donde podra observar como ejecutar correctamente el proyecto. 
 
 ---
 
