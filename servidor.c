@@ -81,7 +81,7 @@ void *manejar_cliente(void *socket_desc) {
         snprintf(mensaje_final, sizeof(mensaje_final), "%s: %s", nombres[id_cliente], buffer);
         printf("%s", mensaje_final);
 
-        escribir_log(mensaje_final); // Registrar mensaje en log
+        escribir_log(mensaje_final);
 
         enviar_a_todos(mensaje_final, sock);
 

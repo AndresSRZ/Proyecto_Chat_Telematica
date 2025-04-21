@@ -1,4 +1,4 @@
-// cliente.c (mejora visual)
+// cliente.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,7 +21,7 @@ void *recibir_mensajes(void *arg) {
         buffer[valread] = '\0';
 
         pthread_mutex_lock(&lock);
-        printf("\r\033[K%s\nTú: ", buffer); // \r limpia línea actual, \033[K limpia hacia el final
+        printf("\r\033[K%s\nTú: ", buffer);
         fflush(stdout);
         pthread_mutex_unlock(&lock);
 
