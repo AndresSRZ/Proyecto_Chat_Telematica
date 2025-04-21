@@ -1,4 +1,4 @@
-# Proyecto de Programación en Red - Chat Multicliente en C
+# Proyecto Telematica - Chat Multicliente en C
 
 ## Introducción
 
