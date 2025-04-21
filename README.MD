@@ -1,0 +1,77 @@
+# Proyecto de Programación en Red - Chat Multicliente en C
+
+## Introducción
+
+El presente proyecto tiene como objetivo desarrollar un sistema de chat funcional utilizando sockets en lenguaje C bajo una arquitectura cliente-servidor.  
+Se implementa el protocolo TCP/IP para garantizar una comunicación confiable entre múltiples clientes conectados simultáneamente.  
+Este proyecto permite comprender los principios de la programación en red, el manejo de concurrencia usando hilos (pthread) y la gestión eficiente de múltiples conexiones en tiempo real.
+
+---
+
+## Desarrollo
+
+El sistema se compone de dos aplicaciones principales:
+
+### 1. Servidor de Chat
+- Programado en C utilizando la API de sockets de Berkeley.
+- Escucha conexiones entrantes en el puerto 8080.
+- Acepta múltiples clientes simultáneamente utilizando *hilos* (pthread).
+- Recibe mensajes de los clientes y los *retransmite* a todos los demás conectados.
+- Gestiona la desconexión de clientes de manera segura.
+
+### 2. Cliente de Chat
+- Programado en C utilizando la API de sockets de Berkeley.
+- Solicita el *nombre de usuario* al iniciar la sesión.
+- Permite el *envío y recepción* de mensajes en paralelo utilizando hilos (pthread).
+- Permite salir del chat escribiendo exit o quit.
+- Optimiza la interfaz de terminal para un flujo de chat limpio y ordenado.
+
+*Tecnologías utilizadas*:
+- Lenguaje: C
+- Librerías: sys/socket.h, netinet/in.h, arpa/inet.h, pthread.h
+- Entorno de despliegue: Ubuntu Server (AWS EC2 Instances)
+
+---
+
+## Aspectos logrados y no logrados
+
+### Aspectos logrados
+- ✅ Conexión simultánea de múltiples clientes al servidor.
+- ✅ Comunicación en tiempo real entre los clientes.
+- ✅ Implementación correcta del protocolo TCP/IP.
+- ✅ Manejo de concurrencia mediante hilos (pthread).
+- ✅ Sistema de identificación de usuarios mediante nombre.
+- ✅ Permitir desconexión voluntaria del cliente (exit, quit).
+- ✅ Flujo de chat ordenado y visualmente limpio en terminal.
+
+### Aspectos no logrados
+- ❌ Actualmente no se implementa persistencia de mensajes (no se guardan en archivos).
+- ❌ No se implementa autenticación avanzada (contraseñas o roles de usuarios).
+- ❌ No se implementa reconexión automática de clientes después de desconexión.
+
+---
+
+## Conclusiones
+
+Este proyecto permitió aplicar conceptos fundamentales de la programación en red, el manejo de sockets TCP/IP y la creación de aplicaciones concurrentes mediante hilos.  
+La experiencia adquirida en la construcción de un sistema de chat real resalta la importancia del diseño de sistemas distribuidos confiables y eficientes.  
+Además, se destacó la importancia de manejar adecuadamente las entradas y salidas en entornos de múltiples usuarios para garantizar una buena experiencia de usuario.  
+Aunque aún existen posibles mejoras, como persistencia de chats y mecanismos de autenticación, el sistema cumple satisfactoriamente con los objetivos planteados inicialmente.
+
+---
+
+## Referencias
+
+- *Beej's Guide to Network Programming*: https://beej.us/guide/bgnet/
+- *The Linux Programming Interface* - Michael Kerrisk
+- *Man pages*:
+  - man 2 socket
+  - man 2 bind
+  - man 2 listen
+  - man 2 accept
+  - man 2 read
+  - man 2 write
+  - man pthread_create
+  - man pthread_detach
+- *API de sockets de Berkeley* - Documentación oficial
+- Documentación de GCC, pthread, Linux Ubuntu Networking
