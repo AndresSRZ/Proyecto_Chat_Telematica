@@ -43,9 +43,10 @@ El sistema se compone de dos aplicaciones principales:
 - Sistema de identificación de usuarios mediante nombre.
 - Permitir desconexión voluntaria del cliente (exit, quit).
 - Flujo de chat ordenado y visualmente limpio en terminal.
+- Implementa persistencia de mensajes (se guardan en el archivo, chat.log).
+
 
 ### Aspectos no logrados
-- Actualmente no se implementa persistencia de mensajes (no se guardan en archivos).
 - No se implementa autenticación avanzada (contraseñas o roles de usuarios).
 - No se implementa reconexión automática de clientes después de desconexión.
 
