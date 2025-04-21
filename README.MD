@@ -12,14 +12,15 @@ Este proyecto permite comprender los principios de la programación en red, el m
 
 El sistema se compone de dos aplicaciones principales:
 
-### 1. Servidor de Chat
+### 1. Servidor de Chat (Se creo una maquina virtual como servidor)
 - Programado en C utilizando la API de sockets de Berkeley.
 - Escucha conexiones entrantes en el puerto 8080.
 - Acepta múltiples clientes simultáneamente utilizando *hilos* (pthread).
 - Recibe mensajes de los clientes y los *retransmite* a todos los demás conectados.
 - Gestiona la desconexión de clientes de manera segura.
+- Maneja concurrencia de los datos sobre la sesion. (Momento de la accion, quien se conecto, que mensaje mando y quien se desconecto). 
 
-### 2. Cliente de Chat
+### 2. Cliente de Chat (Se creo una maquina virtual distinta por cada cliente para verificar la capacidad del servidor y el funcionamiento correcto del chat. Creamos 2 clientes en total).
 - Programado en C utilizando la API de sockets de Berkeley.
 - Solicita el *nombre de usuario* al iniciar la sesión.
 - Permite el *envío y recepción* de mensajes en paralelo utilizando hilos (pthread).
