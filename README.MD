@@ -36,18 +36,18 @@ El sistema se compone de dos aplicaciones principales:
 ## Aspectos logrados y no logrados
 
 ### Aspectos logrados
-- ✅ Conexión simultánea de múltiples clientes al servidor.
-- ✅ Comunicación en tiempo real entre los clientes.
-- ✅ Implementación correcta del protocolo TCP/IP.
-- ✅ Manejo de concurrencia mediante hilos (pthread).
-- ✅ Sistema de identificación de usuarios mediante nombre.
-- ✅ Permitir desconexión voluntaria del cliente (exit, quit).
-- ✅ Flujo de chat ordenado y visualmente limpio en terminal.
+- Conexión simultánea de múltiples clientes al servidor.
+- Comunicación en tiempo real entre los clientes.
+- Implementación correcta del protocolo TCP/IP.
+- Manejo de concurrencia mediante hilos (pthread).
+- Sistema de identificación de usuarios mediante nombre.
+- Permitir desconexión voluntaria del cliente (exit, quit).
+- Flujo de chat ordenado y visualmente limpio en terminal.
 
 ### Aspectos no logrados
-- ❌ Actualmente no se implementa persistencia de mensajes (no se guardan en archivos).
-- ❌ No se implementa autenticación avanzada (contraseñas o roles de usuarios).
-- ❌ No se implementa reconexión automática de clientes después de desconexión.
+- Actualmente no se implementa persistencia de mensajes (no se guardan en archivos).
+- No se implementa autenticación avanzada (contraseñas o roles de usuarios).
+- No se implementa reconexión automática de clientes después de desconexión.
 
 ---
 
