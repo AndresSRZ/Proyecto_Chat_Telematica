@@ -57,7 +57,6 @@ El sistema se compone de dos aplicaciones principales:
 Este proyecto permitió aplicar conceptos fundamentales de la programación en red, el manejo de sockets TCP/IP y la creación de aplicaciones concurrentes mediante hilos.  
 La experiencia adquirida en la construcción de un sistema de chat real resalta la importancia del diseño de sistemas distribuidos confiables y eficientes.  
 Además, se destacó la importancia de manejar adecuadamente las entradas y salidas en entornos de múltiples usuarios para garantizar una buena experiencia de usuario.  
-Aunque aún existen posibles mejoras, como persistencia de chats y mecanismos de autenticación, el sistema cumple satisfactoriamente con los objetivos planteados inicialmente.
 
 ---
 
