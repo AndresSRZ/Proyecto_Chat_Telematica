@@ -67,14 +67,5 @@ Además, se destacó la importancia de manejar adecuadamente las entradas y sali
 - *Beej's Guide to Network Programming*: https://beej.us/guide/bgnet/
 - *Beej's "Bgnet" Repository*: https://github.com/beejjorgensen/bgnet
 - *The Linux Programming Interface* - Michael Kerrisk
-- *Man pages*:
-  - man 2 socket
-  - man 2 bind
-  - man 2 listen
-  - man 2 accept
-  - man 2 read
-  - man 2 write
-  - man pthread_create
-  - man pthread_detach
+- *"Sockets programming" by Think and learn: https://www.youtube.com/playlist?list=PLPyaR5G9aNDvs6TtdpLcVO43_jvxp4emI 
 - *API de sockets de Berkeley* - Documentación oficial
-- Documentación de GCC, pthread, Linux Ubuntu Networking
