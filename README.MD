@@ -1,7 +1,7 @@
 # Proyecto Telematica - Chat Multicliente en C
 
 ## Link del video
-- 
+- https://drive.google.com/file/d/1H1hMWdLrRqGstRVCgXwvdWOkpvljvtWK/view?usp=sharing
 
 ## Introducción
 
