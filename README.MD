@@ -65,7 +65,7 @@ Además, se destacó la importancia de manejar adecuadamente las entradas y sali
 ## Referencias
 
 - *Beej's Guide to Network Programming*: https://beej.us/guide/bgnet/
-- *Beej's Repository*: https://github.com/beejjorgensen/bgnet
+- *Beej's "Bgnet" Repository*: https://github.com/beejjorgensen/bgnet
 - *The Linux Programming Interface* - Michael Kerrisk
 - *Man pages*:
   - man 2 socket
