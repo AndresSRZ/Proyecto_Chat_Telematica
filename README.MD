@@ -1,5 +1,8 @@
 # Proyecto Telematica - Chat Multicliente en C
 
+## Link del video
+- 
+
 ## Introducción
 
 El presente proyecto tiene como objetivo desarrollar un sistema de chat funcional utilizando sockets en lenguaje C bajo una arquitectura cliente-servidor.  
