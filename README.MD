@@ -67,5 +67,6 @@ Además, se destacó la importancia de manejar adecuadamente las entradas y sali
 - *Beej's Guide to Network Programming*: https://beej.us/guide/bgnet/
 - *Beej's "Bgnet" Repository*: https://github.com/beejjorgensen/bgnet
 - *The Linux Programming Interface* - Michael Kerrisk
-- *"Sockets programming" by Think and learn: https://www.youtube.com/playlist?list=PLPyaR5G9aNDvs6TtdpLcVO43_jvxp4emI 
+- *Sockets programming* - Think and learn: https://www.youtube.com/playlist?list=PLPyaR5G9aNDvs6TtdpLcVO43_jvxp4emI 
+- *Sockets - Introducción para Programadores en C* - Programación en lenguaje C en Linux: https://www.youtube.com/watch?v=V4ItxHko6ec&list=PL19snTOMdnWupnb1vcTfjmp6BdNh_YxOp
 - *API de sockets de Berkeley* - Documentación oficial
